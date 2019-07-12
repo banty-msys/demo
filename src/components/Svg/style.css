@@ -1,0 +1,19 @@
+.pathTulip {
+    fill: #E5E4E3;
+    stroke: #CC2954;
+    stroke-width: 10px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+}
+.diamondSt {
+    animation-name: diamondStroke;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes diamondStroke {
+    0%   { stroke-dashoffset: 1000; }
+    50%   { stroke-dashoffset: 0; }
+    100% { stroke-dashoffset: 1000; }
+}

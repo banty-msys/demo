@@ -1,0 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.div{
+    height: 100vh;
+    border: 1px solid black;
+}

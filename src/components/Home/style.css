@@ -1,0 +1,19 @@
+.home{
+
+}
+.home ul{
+    margin: 0;
+    padding: 50px;
+    list-style: none;
+    display: block;
+}
+.home li{
+
+}
+.home a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 5px 0;
+}
