@@ -16,6 +16,7 @@ class Home extends React.Component{
                         <Link to="/active-position">Active Position</Link>
                         <Link to="/svg">SVG</Link>
                         <Link to="/images">Images</Link>
+                        <Link to="/image-crop">Image Crop</Link>
                     </li>
                 </ul>
             </div>
