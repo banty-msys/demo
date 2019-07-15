@@ -1,0 +1,7 @@
+.editorBox{
+    margin: 100px;
+    box-shadow: 0 2px 8px 0 #00000033;
+}
+.tox-tinymce{
+    min-height: 500px;
+}

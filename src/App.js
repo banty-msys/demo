@@ -6,6 +6,7 @@ import ActivePosition from './components/ActivePosition/index'
 import Svg from './components/Svg/index'
 import Images from './components/Images/index'
 import ImageCropUpload from './components/ImageCropUpload/index'
+import TinyEditor from './components/TinyEditor/index'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/svg" component={Svg} exact={true} />
         <Route path="/images" component={Images} exact={true} />
         <Route path="/image-crop" component={ImageCropUpload} exact={true} />
+        <Route path="/text-editor" component={TinyEditor} exact={true} />
       </Switch>
     </BrowserRouter>
   )
